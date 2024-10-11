@@ -1,0 +1,363 @@
+*{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-highlight-color: rgba(0, 0, 0, 0);
+  -ms-highlight-color: rgba(0, 0, 0, 0);
+  highlight-color: rgba(0, 0, 0, 0);
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Microsoft JhengHei', "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-align: justify;
+  overflow-x:hidden;
+}
+h1, h2 {
+  margin: 0;
+  color: #111111;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color:#fff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  float:left;
+}
+input , select {
+   font-family: 'Microsoft JhengHei', "Roboto", "Helvetica", "Arial", sans-serif;
+  
+}
+.Wrapper {
+  width: 1300px;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+/***** 主頁內容 start *****/
+.Page_KV {
+  position: relative;
+  overflow: hidden;
+}
+body.Main {
+  background: #feec7c;
+}
+body.Main .Wrapper {
+  display: table;
+  height: 100vh;
+  padding: 70px 20px;
+}
+.MainPage {
+  display: table-cell;
+  vertical-align: middle;
+  align-content:center;
+  text-align: center;
+}
+.MainPage .Img_MainContent {
+  display: block;
+  text-align: center;
+}
+.MainPage .text_main {
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0;
+  width: 100%;
+  float:left;
+}
+.MainPage .text_main p {
+  display: block;
+}
+footer {
+  width: 100%;
+  float:left;
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 0.6em;
+}
+footer.Green {
+  background: #82902e;
+}
+footer.Yw {
+  background: #ffbf00;
+}
+body.Main footer {
+  /*position: absolute;
+  bottom: 0;*/
+}
+body.bodyAbout { 
+  background: #98bb3f;
+}
+.PageAbout {
+  padding: 130px 0 0 0;
+  width: 100%;
+  float:left;
+}
+.CaseList {
+  width: 100%;
+  float:left;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-content:stretch;
+  margin: 50px 0;
+}
+.CaseList dl {
+  width: 24%;
+  margin: 0 0 20px 0;
+}
+.CaseList dl a  {
+  width: 100%;
+  height: 100%;
+  float:left;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  color:#000;
+  box-shadow: rgba(0,0,0,.3) 0 5px 5px;
+}
+.CaseList dl dt {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.2em;
+  padding: 15px 10px 10px 10px;
+  font-weight: bold;
+
+}
+.CaseList dl dd {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.PageTitle {
+  width: 100%;
+  float:left;
+}
+body.bodyMistake { 
+  background: #9de8ed;
+}
+.PageMistake {
+  padding: 130px 0 50px 0;
+  width: 100%;
+  float:left;
+}
+.Button_Report {
+  background: url(../images/button_report.png) no-repeat 0 0;
+  background-size: 100% auto;
+  width: 294px;
+  height: 87px;
+  position: absolute;
+  left:50%;
+  top:75%;
+  margin: 0 0 0 -147px;
+}
+.Button_Report:hover {
+  background: url(../images/button_report_hover.png) no-repeat 0 0;
+  background-size: 100% auto;
+}
+.text_essay {
+  width: 100%;
+  float:left;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0;
+}
+.Active_Info {
+  width: 100%;
+  float:left;
+}
+.Active_Info dl {
+  width: 100%;
+  float:left;
+}
+.Active_Info dl dt {
+  width: 100%;
+  float:left;
+  color:#95080c;
+  padding: 0 0 0 10px;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.Active_Info dl dt:before {
+  content: '';
+  position: absolute;
+  left:0;
+  width: 2px;
+  height: 100%;
+  background: #95080c;
+}
+.Active_Info dl dd {
+  width: 100%;
+  float:left;
+  padding: 0;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.Active_Info dl dd ol {
+  margin: 0 0 0 2em;
+  list-style-type: decimal;
+}
+.Active_Info dl dd ol li {
+  margin: 0 0 10px 0;
+}
+.Title_report {
+  background: #29949a;
+  width: 100%;
+  float:left;
+  text-align: center;
+}
+.Title_report img {
+  width: 100%;
+  max-width: 752px;
+  margin: -10px 0 -5px 0;
+  float:none;
+  padding: 0 10% 0 0;
+}
+.PageTalkShow {
+  padding: 130px 0 50px 0;
+  width: 100%;
+  float:left;
+}
+body.News {
+  background: url(../images/bg_news.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+body.News .Wrapepr {
+  width: 100%;
+  display: table;
+}
+.PageNews {
+
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  align-content:center;
+  text-align: center;
+}
+.Reward {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.Reward .Reward_Info {
+  width: 100%;
+  float:left;
+  background: url(../images/reward_repeat.png) repeat-y 0 0;
+  background-size: 100% auto;
+  padding: 0 10%;
+  color:#dc3d6e;
+}
+@media all and (orientation:portrait) {
+  /* Styles for Portrait screen */
+}
+@media all and (orientation:landscape) {
+
+}
+
+@media (max-width: 1300px) {
+  .Wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .Reward {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .Button_Report {
+    width: 180px;
+    height: 53px;
+    margin: 0 0 0 -90px;
+    top:80%;
+  }
+}
+@media (max-width: 768px) {
+  .PageAbout {
+    padding: 50px 0 0 0;
+  }
+  .PageMistake {
+    padding: 50px 0 0 0;
+  }
+  .PageTalkShow {
+    padding: 50px 0 0 0;
+  }
+}
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+  .Button_Report {
+    width: 150px;
+    height: 44px;
+    margin: 0 0 0 -75px;
+    top:80%;
+  }
+  .CaseList dl {
+    width: 48%;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+  .Button_Report {
+    width: 120px;
+    height: 35px;
+    margin: 0 0 0 -60px;
+    top:80%;
+  }
+  .CaseList dl {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+
